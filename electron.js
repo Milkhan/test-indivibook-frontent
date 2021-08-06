@@ -35,7 +35,7 @@ function createWindow() {
   });
   mainWindow.setMenuBarVisibility(false);
   mainWindow.removeMenu();
-  mainWindow.setContentProtection(true);
+  mainWindow.setContentProtection(false);
   // mainWindow.webContents.openDevTools()
   // mainWindow.webContents.setVisualZoomLevelLimits(1, 3);
   // mainWindow.webContents.setLayoutZoomLevelLimits(1, 3);
